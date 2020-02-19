@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayoutItems">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/backgrnd"
+        android:outlineAmbientShadowColor="#CFCBCB">
+
+        <TextView
+            android:id="@+id/viewTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="what is layout manager"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/viewDateText"
+            android:layout_width="117dp"
+            android:layout_height="58dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:text="26/may/20" />
+
+        <TextView
+            android:id="@+id/viewDesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="90dp"
+            android:layout_marginRight="10dp"
+            android:text="If you want to display the RecyclerView in Horizontal manner, you can do that just by changing a single line of code. All you have to do is provide direction to layout manager i.e LinearLayoutManager.HORIZONTAL as
+                shown below. Also don’t forget to keep your row layout width to WRAP_CONTENT." />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>

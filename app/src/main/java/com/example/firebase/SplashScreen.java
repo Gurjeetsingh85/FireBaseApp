@@ -37,7 +37,7 @@ import android.widget.TextView;
             @Override
             public void run()
             {
-                Intent intent= new Intent(SplashScreen.this, Login.class);
+                Intent intent= new Intent(SplashScreen.this, ChangePassword.class);
                 startActivity(intent);
                 finish();
             }
